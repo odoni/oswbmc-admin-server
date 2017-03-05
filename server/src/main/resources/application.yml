@@ -11,3 +11,8 @@ info:
     group: ${group}
     description: ${description}
     version: ${version}
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://35.165.164.112:27017/oswbmc_db

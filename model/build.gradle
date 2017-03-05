@@ -1,0 +1,15 @@
+group 'com.odoni.oswbmc.admin.server'
+version '0.0.1-SNAPSHOT'
+
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '1.5.1.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-mongodb', version: '1.5.1.RELEASE'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
