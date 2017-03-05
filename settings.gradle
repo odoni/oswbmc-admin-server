@@ -1,3 +1,4 @@
 rootProject.name = 'oswbmc-admin-server'
 include 'server'
+include 'model'
 
